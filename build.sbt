@@ -11,7 +11,6 @@ ThisBuild / scalafixDependencies ++= List(
 addCompilerPlugin(scalafixSemanticdb)
 scalacOptions ++= List(
   "-Yrangepos",
-//  "-Ywarn-unused",
 )
 
 addCommandAlias(
